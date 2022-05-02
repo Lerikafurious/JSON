@@ -1,1 +1,14 @@
+{
+  "title":"Changes in json file haven't been saved after fill commit information and click on Commit changes button on edit page",
+  "precondition1":"create json file on the repository page",
+  "precondition2":"open json file",
+  "step1":"make changes in file",
+  "step2":"enter information in commit changes input",
+  "step2":"click on Commit changes button",
+  "step2":"after redirection to the repository page open file again",
+  "expectedResult":"changes will be saved",
+  "actualResult":"file is blank, changes haven't been saved",
+  "severity":"major",
+  "priority":"high"
+}
 
